@@ -1,0 +1,44 @@
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+tGames Readme
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+tGames is a collection of (currently) just two games for your terminal.
+
+
+->> turrets
+===========
+
+Turrets is a simple battleship clone that allows you to play versus the cpu.
+To play, open a terminal and type:
+
+% turrets
+
+->> mastermind
+==============
+
+Mastermind, or "Break the code" is a two-player game. One player makes a code
+consists of 4 different digits (from 1 through 8) in a random order, and the 
+second has 9 tries to guess what the code is. In order to do this, after each 
+guess, the 'coder' imforms the 'code-breaker' how many of his digits are correct
+and how many are it the right place too.
+To play, open a terminal and type:
+
+% masterming
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Installation Instructions:
+
+To install, just cd to the directory where you downloaded the code and type
+'make'. This will also install the files, so once you do this you are ready to
+go!!!
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Coming soon:
+
+I am currently working on a tictactoe clone with ai support. Hopefully, it will
+be shortly be given in public. It's also probable that once it starts getting 
+formed, it will be uploaded in my repo.
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  
