@@ -1,0 +1,15 @@
+all: turrets
+
+turrets: obj/turrets.o
+	mkdir bin
+	cc obj/turrets.o -o bin/turrets
+
+obj/turrets.o: turrets.c
+	mkdir obj
+	cc turrets.c -c -o obj/turrets.o
+
+install:
+	sudo mv bin/turrets /usr/games/turrets
+	sudo cp /usr/games/turrets /usr/games/turrets-0.1	
+	sudo chmod 777 /usr/games/turrets /usr/games/turrets-0.1
+

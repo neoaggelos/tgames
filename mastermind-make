@@ -1,0 +1,12 @@
+all: mastermind
+
+mastermind: obj/mastermind.o
+	cc obj/mastermind.o -o bin/mastermind
+
+obj/mastermind.o: mastermind.c
+	cc -c mastermind.c -o obj/mastermind.o
+
+install:
+	sudo mv bin/mastermind /usr/games/
+	sudo chmod 777 /usr/games/mastermind
+
